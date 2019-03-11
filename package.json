@@ -8,7 +8,7 @@
     "start": "babel-node server/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mazahir Hashimli",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.18.2",
