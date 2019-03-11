@@ -1,1 +1,2 @@
-export { currentUserSaga } from "./currentUser.Saga";
+export { currentUserSaga } from "./currentUserSaga";
+export { fetchCartSaga } from "./fetchCartSaga";
