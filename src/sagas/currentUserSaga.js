@@ -8,6 +8,6 @@ export function* currentUserSaga() {
   const response = yield call(fetch, `http://localhost:8081/user/${id}`);
   const data = yield apply(response, response.json);
   console.info("ID", id);
-  console.info("Data?", data);
+  //console.info("Data?", data);
   yield put(setCurrentUser(data));
 }
