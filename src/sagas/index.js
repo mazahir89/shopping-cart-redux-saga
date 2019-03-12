@@ -8,3 +8,4 @@ export {
 } from "./customerServiceAvailabilitySaga";
 
 export { shippingSaga } from "./shippingSaga";
+export { taxRateSaga } from "./taxRateSaga";
